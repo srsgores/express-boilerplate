@@ -4,5 +4,5 @@
 
 exports.index = function (req, res)
 {
-	res.render('index', { title: 'Express' });
+	res.render("index", { title: "LESS Boilerplate", description: "Put your description here" });
 };
