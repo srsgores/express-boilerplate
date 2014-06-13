@@ -171,3 +171,5 @@ node_modules
 ## IntelliJIDEA
 #############
 .idea
+bower_components
+.sass-cache

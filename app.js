@@ -30,6 +30,7 @@ app.configure(function ()
 			prefix: "/css",
 			dest: __dirname + "/public/css"}));
 	app.use(express.static(path.join(__dirname, "public")));
+	app.use(express.static(__dirname + "/bower_components"));
 });
 
 app.configure("development", function ()

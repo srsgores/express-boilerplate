@@ -1,0 +1,9 @@
+@import "../../bower_components/sassboilerplate/sass/style";
+
+main {
+	@extend %normal-padding;
+}
+
+footer {
+	@extend %normal-padding;
+}

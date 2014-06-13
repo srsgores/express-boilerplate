@@ -1,0 +1,32 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/srsgores/express-boilerplate",
+  "authors": [
+    "Sean <seangores@gmail.com>"
+  ],
+  "description": "Boilerplate for quickly creating express.js apps",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "express",
+    "node",
+    "boilerplate",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.2",
+    "jquery": "~2.1.1",
+    "sassboilerplate": "*"
+  }
+}
